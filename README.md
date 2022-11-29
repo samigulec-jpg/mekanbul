@@ -1,3 +1,11 @@
+# MekanBul REST API TESTLERİ
+
+### 1. Collection : MekanBul API Testleri
+![1](/resimler/CollectionTest.png)
+
+### 2. API Testleri
+![2](/resimler/apiTest.png)
+
 # Mekanbul REST API Adresleri
 
 1. [Girilen Konum Civarındaki Mekanları Listele](https://replit.com/@samigulec/mekanbul#resimler/MekanListele.png)
