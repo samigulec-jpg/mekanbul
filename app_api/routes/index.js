@@ -9,7 +9,7 @@ router
 .post(ctrlMekanlar.mekanEkle);
 
 router
-.route('/mekanlar/:mekanid') 
+.route('/mekanlar/:mekanid') //dinamik olarak id yi almamızı sağlar
 .get(ctrlMekanlar.mekanGetir)
 .put(ctrlMekanlar.mekanGuncelle)
 .delete(ctrlMekanlar.mekanSil);
@@ -21,7 +21,7 @@ router
 router
 .route('/mekanlar/:mekanid/yorumlar/:yorumid')
 .get(ctrlYorumlar.yorumGetir)
-.put(ctrlYorumlar.yorumGuncelle) 
+.put(ctrlYorumlar.yorumGuncelle) //güncellemek istiyorsak put metodu ile
 .delete(ctrlYorumlar.yorumSil);
 
 module.exports=router;
